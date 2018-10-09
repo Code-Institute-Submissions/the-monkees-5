@@ -16,6 +16,18 @@ body{
     padding-right: 0;
 }
 
+.listen-file{
+    background-color: #ffffff;
+}
+
+.events-file{
+    background-color: #4a59bc;
+}
+
+.history-file{
+    background-color: #d7dddd;
+}
+
 header{
     top: 0;
     left: 0;
@@ -23,6 +35,8 @@ header{
     text-align: center;
     max-height: 150px;
 }
+
+
 
 #logo{
     background-color: transparent;
@@ -80,21 +94,29 @@ header{
 
 /*---------------------------------------section*/
 
+#exhibit-monkees{
+    float: left;
+}
 
+#band-history{
+    margin: 15px;
+    clear: left;
+}
 
+#cover3{
+    float:right;
+}
 
 /*---------------------------------------footer*/
 
 footer{
     background-color: #580c0f;
     min-height: 100px;
-   
 }
 
 .footer-items{
     text-align: center;
     margin-top: 20px;
-    
 }
 
 .members{
