@@ -3,13 +3,18 @@ body{
     margin: 0;
     height: 100%;
     font-family: "exo", sans-serif;
-    background-image: url(images/monkees2.jpg);
+    /*--background-image: url(images/monkees2.jpg);
     background-repeat: repeat;
     background-size: 3vw 3vw;
-    background-attachment: fixed;
+    background-attachment: fixed;--*/
+    background-color: #c9c2c1;
 }  
 
 /*---------------------------------------header*/
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 header{
     top: 0;
@@ -25,7 +30,7 @@ header{
 }
 
 .menu-items{
-    height: 90px;
+    height: 40px;
     border-radius: 60px;
     box-shadow: 10px 16px 25px 0px rgba(0,0,0,0.75);
     margin-bottom: 10px;
@@ -40,7 +45,7 @@ header{
 }
 
 .listen{
-    background-color: #FFE232;
+    background-color: #f1cf01;
 }
 
 .events{
@@ -51,11 +56,15 @@ header{
     background-color: #D8A5CE;
 }
 
+.menu{
+    margin-left: 0;
+}
+
 .menu li{
     display: inline-block;
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-family: 'Luckiest Guy', cursive;
-    margin-top: 25px;
+    margin-top: 8px;
     text-transform: uppercase;
 }
 
@@ -73,6 +82,7 @@ header{
 
 
 
+
 /*---------------------------------------footer*/
 
 footer{
@@ -87,6 +97,9 @@ footer{
     
 }
 
+.members{
+    margin-left: 20px;
+}
 
 .links i{
   font-size: 35px;
@@ -101,5 +114,5 @@ footer{
 }
 
 .links i:hover{
-    background-color: #A52A2A;
+    background-color: #3e1a1a;
 }
