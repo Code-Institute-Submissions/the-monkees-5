@@ -51,8 +51,10 @@
         <img src="images/bg-pic.jpg" id="bg-pic" width="100%" height="auto">
     <div class="advert">
         <img src="images/album2.jpg" id="album2" alt="album2 pic" width="250px" height="250px">
-        <div class="text-advert"><h2>the monkees greatest hits <small class="small-text">'available now'</small></h2><button class="btn btn-warning" id="order">ORDER</button></div>
-    </div>    
+            <div class="text-advert"><h2>the monkees greatest hits <small class="small-text">'available now'</small></h2>
+              <button type="button" class="btn btn-warning" id="order" data-toggle="modal" data-target="#mymodal">ORDER</button>
+            </div>
+        </div>    
         <img src="images/monkees.jpg" id="monkees" width="100%" height="auto">
     </div>
 </section>
@@ -75,17 +77,43 @@
         </div>
 
         <div class="col-xs-4 col-sm-2 links">
-            <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a>
         </div>
         <div class="col-xs-4 col-sm-2 links">
             <a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
         </div>
         <div class="col-xs-4 col-sm-2 links">
-            <a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+            <a target="_blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube"></i></a>
         </div>
     </div>
+    
+    
 </footer>
 
+<div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 style="text-align: center">Buy It Now!!!</h2>
+                <div class="modal-body">
+                    <form action="..." method="post" class="form-group">
+                        <label for="name"><h4><strong>Name</h4></strong></label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="username" required><br>
+                        <label for="address"><h4><strong>Address</h4></strong></label>
+                        <input type="text" class="form-control" id="address" name="Address" placeholder="address" required><br>
+                        <label for="name"><h4><strong>Email</h4></strong></label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="email address" required><br>
+                        <label for="name"><h4><strong>How many</h4></strong></label>
+                        <input type="number" class="form-control" id="number" name="number" placeholder="quantity" min="1" required><br>
+                        <div style="text-align: center"><button type="submit" class="btn btn-success">ADD TO CART</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
 </body>
 
 </html>

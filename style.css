@@ -3,10 +3,6 @@ body{
     margin: 0;
     height: auto;
     font-family: "exo", sans-serif;
-    /*--background-image: url(images/monkees2.jpg);
-    background-repeat: repeat;
-    background-size: 3vw 3vw;
-    background-attachment: fixed;--*/
     background-color: #c9c2c1;
 }  
 
@@ -136,7 +132,6 @@ header{
 
 h2{
     margin-top: 10px;
-    font-family: cursive;
 }
 
 .small-text{
@@ -179,9 +174,12 @@ h2{
 
 #band-history{
     margin: 15px;
-    clear: left;
 }
-
+/*
+.trial{
+    float: left;
+}
+*/
 #cover3{
     float:right;
     margin: 5px 0 5px 5px;
