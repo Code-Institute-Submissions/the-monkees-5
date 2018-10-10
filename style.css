@@ -1,7 +1,7 @@
 body{
     padding:0;
     margin: 0;
-    height: 100%;
+    height: auto;
     font-family: "exo", sans-serif;
     /*--background-image: url(images/monkees2.jpg);
     background-repeat: repeat;
@@ -33,14 +33,12 @@ header{
     left: 0;
     width: 100%;
     text-align: center;
-    max-height: 150px;
+    
 }
-
-
 
 #logo{
     background-color: transparent;
-    width: 90%;
+    width: 100%;
 }
 
 .menu-items{
@@ -92,10 +90,91 @@ header{
     letter-spacing: 3px;
 }
 
-/*---------------------------------------section*/
+/*---------------------------------------section index*/
+
+.index-section{
+    text-align: center;
+}
+
+#bg-pic{
+    margin-bottom: 15px;
+}
+
+.index-content{
+    text-align: center;
+    margin: 15px;
+}
+
+#album2{
+    float: left;
+    padding: 10px;
+}
+
+
+
+#monkees{
+    margin-bottom: 15px;
+}
+
+.advert {
+    overflow: auto;
+    width: 500px;
+    margin: 0px;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    bottom: 30%;
+    background-color: #6321218c;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.text-advert{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+h2{
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+.small-text{
+    color: #ffffff;
+}
+
+#order{
+    color: #4b4950;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #eccc2b;
+    border-color: #eccc2b;
+}
+
+@media (max-width:767px) {
+    #album2{
+        display: none;
+    }
+    .advert{
+        width: 200px;
+        height: auto;
+        padding-bottom: 10px
+    }
+}
+
+/*---------------------------------------section listen*/
+
+
+
+/*---------------------------------------section events*/
+
+
+
+/*---------------------------------------section history*/
 
 #exhibit-monkees{
     float: left;
+    margin-bottom: 5px;
 }
 
 #band-history{
@@ -105,6 +184,7 @@ header{
 
 #cover3{
     float:right;
+    margin: 5px 0 5px 5px;
 }
 
 /*---------------------------------------footer*/

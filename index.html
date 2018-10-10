@@ -19,9 +19,9 @@
 <header>
         <nav class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 hvr-grow">
+                <div class="col-xs-12">
                     <div id="logo">
-                        <a href="index.html"><img src="images/monkees-the.png" width="300px" height="150"></a>
+                        <a href="index.html" class="hvr-grow"><img src="images/monkees-the.png" width="300px" height="auto"></a>
                     </div>
                 </div>
                 <div class="col-xs-12 menu-bar">
@@ -46,30 +46,45 @@
         </nav>
     </header>
     
-<section class="container-fluid">
-    <img src="images/bg-pic.jpg" width="100%" height="100%">
-    <img src="images/monkees.jpg" width="100%" height="100%">
+<section class="container-fluid ">
+    <div class="index-section">
+        <img src="images/bg-pic.jpg" id="bg-pic" width="100%" height="auto">
+    <div class="advert">
+        <img src="images/album2.jpg" id="album2" alt="album2 pic" width="250px" height="250px">
+        <div class="text-advert"><h2>the monkees greatest hits <small class="small-text">'available now'</small></h2><button class="btn btn-warning" id="order">ORDER</button></div>
+    </div>    
+        <img src="images/monkees.jpg" id="monkees" width="100%" height="auto">
+    </div>
 </section>
 
 <footer class="container-fluid">
-        <div class="row footer-items">
-            <div class="hidden-xs col-sm-6 col-md-6">
+    <div class="row footer-items">
+        <div class="hidden-xs col-sm-6 col-md-6">
+            <a href="dj-modal" role="button" data-toggle="modal">
                 <img src="images/dj.jpg" class="img-circle members" height=60 width=60>
+              </a>
+            <a href="md-modal" role="button" data-toggle="modal">
                 <img src="images/md.jpg" class="img-circle members" height=60 width=60>
+              </a>
+            <a href="mn-modal" role="button" data-toggle="modal">
                 <img src="images/mn.jpg" class="img-circle members" height=60 width=60>
+              </a>
+            <a href="pt-modal" role="button" data-toggle="modal">  
                 <img src="images/pt.jpg" class="img-circle members" height=60 width=60>
-            </div>
-            <div class="col-xs-4 col-sm-2 links">
-                <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
-            </div>
-            <div class="col-xs-4 col-sm-2 links">
-                <a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
-            </div>
-            <div class="col-xs-4 col-sm-2 links">
-                <a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
-            </div>
+              </a>
         </div>
-    </footer>
+
+        <div class="col-xs-4 col-sm-2 links">
+            <a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="col-xs-4 col-sm-2 links">
+            <a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="col-xs-4 col-sm-2 links">
+            <a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
 
 </body>
 
