@@ -109,8 +109,8 @@ header{
     padding: 0;
     position: fixed;
     right: 0;
-    bottom: 30%;
-    background-color: #6321218c;
+    bottom: 20%;
+    background-color: rgba(99, 33, 33, 0.5490196078431373);
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -136,6 +136,12 @@ h2{
     border-color: #eccc2b;
 }
 
+#order:hover{
+    background-color: orange;
+    border: orange;
+    color: #fff;
+}
+
 @media (max-width:767px) {
     #album2{
         display: none;
@@ -146,6 +152,7 @@ h2{
         padding-bottom: 10px
     }
 }
+
 
 /*---------------------------------------section listen*/
 
@@ -166,11 +173,7 @@ h2{
     margin: 15px;
     font-size: 1.7em;
 }
-/*
-.trial{
-    float: left;
-}
-*/
+
 #cover3{
     float:right;
     margin: 5px 0 5px 5px;
@@ -181,6 +184,27 @@ h2{
     height: 10px;
     background-color: #580c0f;
     border-radius: 25px;
+}
+
+.bios-history{
+    margin-top: 50px;
+}
+
+.biography{
+    margin-bottom: 25px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: 0;
+  text-align: center; 
+}
+
+.card p{
+    text-align: left;
+    padding: 5px;
 }
 
 /*---------------------------------------footer*/
