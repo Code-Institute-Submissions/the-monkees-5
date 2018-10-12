@@ -171,8 +171,18 @@ h2{
 /*---------------------------------------section listen*/
 
 audio{
-    width: 300px;
-    height: 20px;
+    width: 80%;
+}
+
+#cards{
+    max-width: 100%;
+    margin-bottom: 30px;
+    box-shadow: -14px 11px 15px 7px rgba(0, 0, 0, 0.44);
+    border-radius: 8px;
+}
+
+.songs{
+    
 }
 
 /*---------------------------------------section events*/
@@ -287,7 +297,7 @@ audio{
 }
 
 .block-divider--short{
-    width: 100px;
+    width: 25%;
     height: 10px;
     background-color: #580c0f;
     border-radius: 25px;
@@ -317,7 +327,7 @@ audio{
 /*---------------------------------------footer*/
 
 .bottom-footer{
-    background-color: #a00303;
+    background-color: #2f2626;
     min-height: 100px;
 }
 
@@ -343,5 +353,5 @@ audio{
 }
 
 .links i:hover{
-    background-color: #3e1a1a;
+    background-color: #6b6363;
 }
