@@ -25,9 +25,7 @@ body{
     background-image: url(images/swirl.jpg);
     background-size: 100% 500px;
     background-repeat: repeat-y;
-    
-    
-    
+    background-attachment: fixed;
 }
 
 .index-file{
@@ -106,11 +104,30 @@ header{
     margin: 15px;
 }
 
+.main-index{
+    background: url(images/1960a.png),url(images/1960b.png);
+    background-position: top left, top right;
+    background-size: 15% auto;
+    background-repeat: repeat-y;
+}
+
+#jumbotron5{
+    width: 58%;
+    margin: 20px 21%;
+    background-color: #bd868685;
+}
+
+#jumbotron5 p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
 .title-xmas{
-    background-color: #ffffff;
+    background-color: #fff0;
     color: #ad2121;
     font-size: 5vw;
-    font-family: fantasy;
+    font-family: 'Luckiest Guy', cursive;
     font-weight: bolder;
 }
 
@@ -119,8 +136,6 @@ header{
     height: 34vw;
     margin-bottom: 5vw;
 }
-
-
 
 #album2{
     float: left;
@@ -231,7 +246,7 @@ audio{
 .events-section{
     background-image: url(images/live.jpg);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -311,11 +326,6 @@ audio{
 
 /*---------------------------------------section history*/
 
-#exhibit-monkees{
-    float: left;
-    margin-bottom: 5px;
-}
-
 #jumbotron4{
     border-radius: 15px;
     margin: 0 20% 0 5%;
@@ -327,8 +337,10 @@ audio{
 #band-history{
     margin: 15px;
     font-size: 1.5em;
-    
-    
+}
+
+#band-history a{
+    color: #000;
 }
 
 #cover3{
