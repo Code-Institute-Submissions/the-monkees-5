@@ -105,9 +105,9 @@ header{
 }
 
 .main-index{
-    background: url(images/1960a.png),url(images/1960b.png);
-    background-position: top left, top right;
-    background-size: 15% auto;
+    background: url(images/testflower.png);
+    background-position: top center;
+    background-size: 95% auto;
     background-repeat: repeat-y;
 }
 
@@ -115,6 +115,7 @@ header{
     width: 58%;
     margin: 20px 21%;
     background-color: #bd868685;
+    padding: 30px 10px;
 }
 
 #jumbotron5 p {
@@ -358,6 +359,7 @@ audio{
     height: 10px;
     background-color: #580c0f;
     border-radius: 25px;
+    border: 0;
 }
 
 .bios-history{
@@ -388,6 +390,15 @@ audio{
 .bottom-footer{
     background-color: #2f2626;
     min-height: 100px;
+}
+
+.footer-prod{
+    font-size: 18px;
+    color: #f9f3e7;
+}
+
+#footer-sm{
+    padding: 1%;
 }
 
 .footer-items{
