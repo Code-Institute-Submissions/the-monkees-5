@@ -51,10 +51,10 @@ header{
     box-shadow: 10px 16px 25px 0px rgba(0,0,0,0.75);
     margin-bottom: 10px;
 }
-/*
+
 .row{
     margin: 0;  
-}*/
+}
 
 .home{
     background-color: brown;
@@ -93,6 +93,9 @@ header{
 
 /*---------------------------------------section index*/
 
+.index-file{
+    background-color: #c9c2c1;
+}
 .index-section{
     text-align: center;
     background-color: #ffffff;
@@ -114,7 +117,7 @@ header{
 #jumbotron5{
     width: 58%;
     margin: 20px 21%;
-    background-color: #bd868685;
+    background-color: rgba(189, 134, 134, 0.5215686274509804);;
     padding: 30px 10px;
 }
 
