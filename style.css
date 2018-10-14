@@ -27,10 +27,10 @@ body{
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
-
+/*
 .index-file{
     background-color: #c9c2c1;
-}
+}*/
 
 header{
     top: 0;
@@ -51,10 +51,10 @@ header{
     box-shadow: 10px 16px 25px 0px rgba(0,0,0,0.75);
     margin-bottom: 10px;
 }
-
+/*
 .row{
     margin: 0;  
-}
+}*/
 
 .home{
     background-color: brown;
@@ -98,12 +98,12 @@ header{
     background-color: #ffffff;
    
 }    
-
+/*
 .index-content{
     text-align: center;
     margin: 15px;
 }
-
+*/
 .main-index{
     background: url(images/testflower.png);
     background-position: top center;
@@ -194,7 +194,6 @@ h2{
     }
 }
 
-
 /*---------------------------------------section listen*/
 
 audio{
@@ -217,9 +216,12 @@ audio{
 
 @media (min-width: 1200px){
     .songs{
-          height: auto
-          ;
+          height: auto;
 }
+}
+
+#block-divider-listen{
+    background-color: #a52a2a;
 }
 
 #jumbotron3{
@@ -230,11 +232,9 @@ audio{
     margin: 0 auto 25px auto;
 }
 
-
 .video-listen{
     padding: -10px;
     margin-bottom: 20px;
-    
 }
 
 .vid-title-listen{
@@ -310,15 +310,15 @@ audio{
     margin-bottom: 0;
 }
 
-.concert-date{
-    color: #fafafa;
-    
-}
-
 .concert{
     border-left: 0;
     background-color: rgba(130, 30, 30, 0.39);
     border-radius: 30px;
+}
+
+.concert-date{
+    color: #fafafa;
+    
 }
 
 .btn-tickets{
@@ -392,24 +392,24 @@ audio{
     min-height: 100px;
 }
 
-.footer-prod{
-    font-size: 18px;
-    color: #f9f3e7;
+.footer-items{
+    text-align: center;
+    margin-top: 20px;
 }
 
 #footer-sm{
     padding: 1%;
 }
 
-.footer-items{
-    text-align: center;
-    margin-top: 20px;
+.footer-prod{
+    font-size: 18px;
+    color: #f9f3e7;
 }
-
+/*
 .members{
     margin-left: 20px;
 }
-
+*/
 .links i{
   font-size: 35px;
   border:solid 4px #f9f3e7;
