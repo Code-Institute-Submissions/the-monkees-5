@@ -27,10 +27,6 @@ body{
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
-/*
-.index-file{
-    background-color: #c9c2c1;
-}*/
 
 header{
     top: 0;
@@ -98,27 +94,26 @@ header{
 }
 .index-section{
     text-align: center;
-    background-color: #ffffff;
+    background-color: #c9c2c1;
    
 }    
-/*
-.index-content{
-    text-align: center;
-    margin: 15px;
-}
-*/
+
 .main-index{
-    background: url(images/testflower.png);
-    background-position: top center;
-    background-size: 95% auto;
-    background-repeat: repeat-y;
+    background: url(images/red-guitar.png);
+    background-position: center;
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+
 
 #jumbotron5{
     width: 58%;
     margin: 20px 21%;
-    background-color: rgba(189, 134, 134, 0.5215686274509804);;
+    background-color: rgba(189, 134, 134, 0.87);
     padding: 30px 10px;
+    border: 2px solid #ad2121;
 }
 
 #jumbotron5 p {
@@ -128,11 +123,10 @@ header{
 }
 
 .title-xmas{
-    background-color: #fff0;
-    color: #ad2121;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0.84);
     font-size: 5vw;
     font-family: 'Luckiest Guy', cursive;
-    font-weight: bolder;
 }
 
 #xmas-special {
@@ -236,7 +230,6 @@ audio{
 }
 
 .video-listen{
-    padding: -10px;
     margin-bottom: 20px;
 }
 
