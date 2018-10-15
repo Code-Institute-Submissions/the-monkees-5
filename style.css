@@ -46,7 +46,6 @@ header{
     left: 0;
     width: 99%;
     text-align: center;
-    
 }
 
 #logo{
@@ -101,17 +100,6 @@ header{
 }
 
 /*---------------------------------------section index*/
-
-
-/*
-.index-section{
-    background: url(images/red-guitar.png);
-    background-position: center;
-    background-size: 80% auto;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    text-align: center;
-}*/
 
 #jumbotron5{
     width: 58%;
@@ -180,8 +168,8 @@ h2{
 }
 
 #order:hover{
-    background-color: orange;
-    border: orange;
+    background-color: #c7aa17;
+    border: #c7aa17;
     color: #fff;
 }
 
@@ -399,18 +387,15 @@ audio{
 }
 
 #footer-sm{
-    padding: 1%;
+    padding: 1% 4% 1% 0;
+    text-align: right;
 }
 
 .footer-prod{
     font-size: 18px;
     color: #f9f3e7;
 }
-/*
-.members{
-    margin-left: 20px;
-}
-*/
+
 .links i{
   font-size: 35px;
   border:solid 4px #f9f3e7;
