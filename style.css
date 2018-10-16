@@ -169,7 +169,7 @@ h2{
 
 #order:hover{
     background-color: #c7aa17;
-    border: #c7aa17;
+    border: 1px solid #c7aa17;
     color: #fff;
 }
 
@@ -182,6 +182,11 @@ h2{
         height: auto;
         padding-bottom: 10px
     }
+    .text-advert {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 1em;
+}
 }
 
 /*---------------------------------------section listen*/
@@ -281,6 +286,7 @@ audio{
     margin: 5px;
     background-color: rgba(0, 0, 0, 0.58);
     font-weight: bold;
+    color: #e6e6e6
 }
 
 .jumbotron2{
