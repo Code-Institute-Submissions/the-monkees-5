@@ -25,3 +25,4 @@ the site.
 This website should satisfy the biggest fans of **_The Monkees_** as well as people that 
 would be discovering them for the first time.
 A look at the first drawing of the home page at a very early stage of the project:
+[First wireframe](/images/first-wireframe.png)
