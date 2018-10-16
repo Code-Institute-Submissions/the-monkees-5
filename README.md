@@ -99,7 +99,7 @@ in small to large devices but doesn't in mobile format.
 
 
 > The ordering forms have been set as "required"; a message does appear in case of some information missing: 
-[screenshot](the-monkees/images.form-incomplete.png) of ordering form in home page.
+[screenshot](/images/form-incomplete.png) of ordering form in home page.
 
 > Having a display and a layout that suits all screens has definitely been the 
 biggest challenge; __DevTools__ has been the greates tool during the project.
