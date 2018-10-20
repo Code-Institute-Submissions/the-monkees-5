@@ -68,7 +68,7 @@ episodes of the original show "The Monkees".
 
 ## Testing
 Testing tools used to verify codes:
-* W3C CSS Validation Service(https://jigsaw.w3.org/css-validator/)
+* W3C CSS Validation Service (https://jigsaw.w3.org/css-validator/)
 * W3C Markup Validation Service (https://validator.w3.org/)
 * Chrome DevTools (life saver)
 
@@ -88,21 +88,24 @@ The website has been testing by myself and other parties on various devices, scr
  <dl>Explorer (42.17134.1.0)
 </dl>
 
-#### Differences depending on screen sizes
 > All features have been tested and functionned in all these platforms. 
 The layouts have also been checked in portrait and landscape.
-* The advert for ordering new Greatest Hits in Home page display the album cover 
-in small to large devices but doesn't in mobile format.
-* The footer gets simplified in mobile format
-* Realingment of members cards in History file to suit screen size
-* Realingment of music and videos in Listen page to suit screen size
-
 
 > The ordering forms have been set as "required"; a message does appear in case of some information missing: 
 [screenshot](/images/form-incomplete.png) of ordering form in home page.
 
 > Having a display and a layout that suits all screens has definitely been the 
 biggest challenge; __DevTools__ has been the greates tool during the project.
+
+
+##### Differences depfending on screen sizes
+
+* The advert for ordering new Greatest Hits in Home page display the album cover 
+in small to large devices but doesn't in mobile format.
+* The footer gets simplified in mobile format
+* Realingment of members cards in History file to suit screen size
+* Realingment of music and videos in Listen page to suit screen size
+
 
 ##### Issue
 > The fixed backgroung in the Events page is scrolling in some mobile device.(fixing still in progress)
@@ -112,8 +115,26 @@ Published on [GitHub](https://github.com/nicktruel/the-monkees), and built in [C
 
 ## Credit
 ##### Content
-*
+* The text in home page was copied from [The Monkees-Biography](https://www.biography.com/people/groups/the-monkees) website.
+* The text from the history page was copied from [The Monkees Wikipedia](https://en.wikipedia.org/wiki/The_Monkees).
+* The text in the biography cards was copied from:
+
+[Micky Dolenz](https://en.wikipedia.org/wiki/Micky_Dolenz) from Wikipedia
+
+[Michael Nesmith](https://en.wikipedia.org/wiki/Michael_Nesmith) from Wikipedia
+
+[Peter Tork](https://en.wikipedia.org/wiki/Peter_Tork) from Wikipedia
+
+[Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician)) from Wikipedia
+
 ##### Media
-*
+* The main logo "The Monkees"  was copied from [Fanart.tv](https://fanart.tv/).
+* The red guitar background in the home page was copied from [KissPNG](https://www.kisspng.com/).
+* The black guitar picture in the Listen page was copied from [Band Logo Juke Box](https://www.bandlogojukebox.com/blog/2017/12/4/m1-the-monkees).
+* The video from the home page (Unwrap You At Christmas) was copied from [The Monkees Youtube Channel](https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA).
+* The videos in the Listen page were copied from [The Monkees Youtube Channel](https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA).
+* The main picture in the History page was copied from [Gazoline alley antiques](http://www.gasolinealleyantiques.com/celebrity/monkees.htm).
+
 ##### Acknowledgements
-*
+I took inspiration for this project from various band websites such as [The Doors](https://www.thedoors.com/), [The Wailers](https://www.thewailers.net/) and [Earth Wind and Fire](https://www.earthwindandfire.com/) official websites.
+The layouts were all inspired from various projects all along the Code Institute course.
