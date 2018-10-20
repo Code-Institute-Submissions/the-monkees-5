@@ -95,10 +95,10 @@ The layouts have also been checked in portrait and landscape.
 [screenshot](/images/form-incomplete.png) of ordering form in home page.
 
 > Having a display and a layout that suits all screens has definitely been the 
-biggest challenge; __DevTools__ has been the greates tool during the project.
+biggest challenge; __DevTools__ has been the greatest tool during the project.
 
 
-##### Differences depfending on screen sizes
+##### Differences depending on screen sizes
 
 * The advert for ordering new Greatest Hits in Home page display the album cover 
 in small to large devices but doesn't in mobile format.
@@ -108,9 +108,9 @@ in small to large devices but doesn't in mobile format.
 
 
 ##### Issue
-> The fixed backgroung in the Events page is scrolling in some mobile device.(fixing still in progress)
+> The fixed backgroung in the Events page is scrolling in some mobile device (fixing still in progress).
 
-## Deployement
+## Deployment
 Published on [GitHub](https://github.com/nicktruel/the-monkees), and built in [Cloud9](https://c9.io/nicktruel).
 
 ## Credit
