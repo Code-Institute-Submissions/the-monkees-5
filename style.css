@@ -332,11 +332,26 @@ audio{
 
 #band-history{
     margin: 15px;
-    font-size: 1.5em;
+    padding: 10px 0;
+    font-size: 1.4em;
+    clear: both;
 }
 
 #band-history a{
     color: #000;
+}
+
+#band{
+    float: none;
+    margin: 10px 25% 10px 25%;
+    border: 3px solid #fff;
+    border-radius: 10px
+}
+
+@media (min-width:768px){
+    #band{
+        display: none;
+    }
 }
 
 #cover3{
@@ -412,6 +427,7 @@ audio{
   margin-top: 5px;
   padding-top: 5px;
   color: #f9f3e7;
+  background-color: #000;
 }
 
 .links i:hover{
